@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 id="title">Survey Form for College Students</h1>
+      <p id="description">We want to hear from you!</p>
+      <form id="survey-form" action='https://survey-form.collegeformstudents.submit'>
+      <fieldset>
+       <label id="name-label">Name:<input id="name" type="text" required placeholder="Your name"/></label>  
+       <label id="email-label">Email:<input type="email" id="email" required placeholder="Your email"/></label>
+       <label id="number-label">Age:<input type="number" id="number" min="18" max="99"required placeholder="age"/></label> 
+      </fieldset>
+      <fieldset>
+          <label>What year of college are you currently enrolled in?</label>
+          <select id="dropdown">
+              <option value="">(select your academic year)</option>
+              <option value="1">Freshman</option>
+              <option value="2">Sophomore</option>
+             <option value="3">Junior</option>
+             <option value="4">Senior</option>
+          </select>
+      </fieldset>
+      <fieldset>
+          <label>What option best applies to you?</label>
+          <label><input type="radio" name="group1" value="string" />New Student</label>
+          <label><input type="radio" name="group1" value="string" />Existing Student</label>
+        </fieldset>
+        <fieldset>
+          <label>Please check all areas where the college needs improvement</label>
+          <input type="checkbox" name="improvement" value="Academics" class="inline"/>Academics
+          <input type="checkbox" name="improvement" value="Faculty" class="inline"/>Faculty
+          <input type="checkbox" name="improvement" value="Clubs" class="inline"/>Clubs
+          <input type="checkbox" name="improvement" value="Gym area" class="inline"/>Gym area
+          <input type="checkbox" name="improvement" value="Cafeteria choices" class="inline"/>Cafeteria choices
+          <input type="checkbox" name="improvement" value="Outdoor space" class="inline"/>Outdoor space
+        </fieldset>
+    <fieldset>
+        <label>Please write down any comments</label>
+        <textarea name="comments" placeholder="My college could be better if..."rows="5"cols="44"></textarea>
+    </fieldset>
+
+    <input type="submit" id="submit" value="Submit" />
+
+
+
+    </body>
+   </form>
+ </html>

@@ -1,0 +1,39 @@
+h1{
+    text-align:center;
+  }
+  p{
+    font-style: italic;
+    font-weight:300;
+    font-size:17px;
+  }
+  body{
+    width:100%;
+    text-align:center;
+    height:100%;
+    background-image:url(https://wallpaperaccess.com/full/1209535.jpg);
+    color:black;
+    font-family:arial;
+    font-size:15px;
+  
+  }
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  form{
+    background-image:url(https://media.istockphoto.com/photos/green-light-grunge-pastel-neo-mint-paper-texture-background-old-matte-picture-id1323378417?b=1&k=20&m=1323378417&s=170667a&w=0&h=4RY_hRdQS9mJH7sE-T-ii_Irx3D7Ao7Z-wr5DDOzZCQ=);
+    width: 100vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset {
+    
+    padding: 2rem 0;
+    border: 3px solid white; 
+  }
+  label{
+    display:block;
+    margin: 0.3em;
+  }
